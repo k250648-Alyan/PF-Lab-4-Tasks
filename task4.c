@@ -7,9 +7,9 @@ int main(){
 		scanf("%d",&internalMarks);
 		if(attendance>=75%%){
 			if(internalMarks>=40){
-				printf("Student can appe!!");
+				printf("Student can appear in the exam!!");
 			} else{
-					printf("Your loan is rejected!!");
+					printf(Student can't appear in fhe exam!!");
 			}
 		}
 		return 0;
