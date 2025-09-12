@@ -5,7 +5,7 @@ int main(){
 		scanf("%d",&salary);
 		printf("Enter your Age:\n");
 		scanf("%d",&age);
-		if(attendance>=75%%){
+		if(salary>=40000){
 			if(age>=25){
 				printf("Your loan is accepted !!");
 			} else{
