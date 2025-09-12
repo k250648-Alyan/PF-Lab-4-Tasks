@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main(){
-	int attendance,internalMarks:
-		printf("Enter your Attendance:\n");
-		scanf("%d",&attendance);
-		printf("Enter your Internal Marks:\n");
-		scanf("%d",&internalMarks);
+	int salary,age;
+		printf("Enter your salary:\n");
+		scanf("%d",&salary);
+		printf("Enter your Age:\n");
+		scanf("%d",&age);
 		if(attendance>=75%%){
-			if(internalMarks>=40){
-				printf("Student can appear in the exam!!");
+			if(age>=25){
+				printf("Your loan is accepted !!");
 			} else{
-					printf(Student can't appear in fhe exam!!");
+					printf("Your loan is rejected !!");
 			}
 		}
 		return 0;
